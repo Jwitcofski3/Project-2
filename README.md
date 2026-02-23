@@ -5,4 +5,5 @@ This repository contains a python based automation tool for the NDOT that caclul
 
 ## Repository Contents 
 - [Python Code](CIVE202_Spring2026_JustinWitcofski_Project2_Code.ipynb)
+- [SOW and Gantt Chart](CIVE202_Spring2026_JustinWitcofski_Project2_SOW_GanttChart.docx)
 - [Mix Design Results](NDOT_Mix_Design_Results.csv)
