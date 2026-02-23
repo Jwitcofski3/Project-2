@@ -8,23 +8,22 @@ This repository contains a python based automation tool for the NDOT that calcul
 - [SOW and Gantt Chart](CIVE202_Spring2026_JustinWitcofski_Project2_SOW_GanttChart.pdf)
 - [Mix Design Results](NDOT_Mix_Design_Results.csv)
 
-## User Guide
+## Python Tool User Guide
 
-### 1. Prerequisites
+### Prerequisites
 Ensure you have a Python environment installed with the following libraries imported:
 - `pandas`
-- `jupyter`
 
-### 2. Running the Automation
+### Running the Automation
 1. Download the `CIVE202_Spring2026_JustinWitcofski_Project2_Code.ipynb` file.
 2. Open the file in Jupyter Notebook or Google Colab.
 3. Go to the top menu and select Cell > Run All.
 4. The script will execute the four standard NDOT mix scenarios (47B, 47BR, High Strength, and 47B-Air).
 
-### 3. Reviewing Results
+### Reviewing Results
 - Output: The notebook will print a summary of Water Weight (Q), Fine Aggregate Weight (Y), and Coarse Aggregate Weight (Z) for each scenario.
 - CSV Export: A file named `NDOT_Mix_Design_Results.csv` will be automatically generated in your local directory. This file can be opened in Microsoft Excel for further professional reporting.
 
-### 4. Customizing Mixes
+### Customizing Mixes
 To test a new mix design, locate the `scenarios` list in the second code cell and add a new dictionary entry with your specific material weights and specific gravities.
 
